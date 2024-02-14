@@ -85,7 +85,7 @@ plt.plot(original_ph_df.index, original_ph_df['pH'], label='Original pH Data', m
 plt.plot(future_ph_df['year'], future_ph_df['Predicted pH'], label='Predicted pH', marker='x', linestyle='--', color='red')
 plt.xlabel('Year')
 plt.ylabel('pH Level')
-plt.title('Predicted pH')
+plt.title('Future years pH prediciton based on monthly data')
 plt.legend()
 plt.grid(True)
 plt.show()
