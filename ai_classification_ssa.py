@@ -26,7 +26,7 @@ prediction = model.predict(new_data)
 print(prediction)
 
 if prediction[0] <= 0.5:    
-    diagnosis = 'High carbon content detected - release NPKN'
+    diagnosis = 'High carbon content detected - release NPK'
 else:
     diagnosis = "NPK not required at the present moment"
 
